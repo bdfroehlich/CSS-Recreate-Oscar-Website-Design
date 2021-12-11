@@ -1,0 +1,82 @@
+/* import a web font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.headernav {
+    display: flex;
+    margin-left: 50%;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px
+}
+
+/*********************************
+ * Build Helpers
+ *********************************/
+/* give each element a border */
+* {
+    border: 1px solid mediumvioletred;
+}
+
+/* shrink images for placement */
+img {
+    width: 100px;
+}
+
+/*********************************
+* General
+*********************************/
+
+body {
+    background-color: snow;
+    color: slategrey;
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: rgb(66, 40, 194);
+    min-height: 60vh;
+}
+
+.navbar ul {
+    width: 60%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+header {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+nav {
+   height: 70px;
+}
